@@ -1,0 +1,31 @@
+name: brandstore
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to pub.dev using `flutter pub publish`.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+# Dependencies specify other packages that your package needs in order to work.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  carousel_slider:
+  flutter_slider_indicator:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Corrected indentation for the assets section
+  assets:
+    - assets/images/
