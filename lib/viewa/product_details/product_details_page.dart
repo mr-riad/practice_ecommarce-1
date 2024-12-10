@@ -122,5 +122,5 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
       ),
     );
   }
-}// riad
+}// Rr
 
